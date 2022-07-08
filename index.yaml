@@ -31,6 +31,65 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.57.0
+    created: "2022-07-08T23:52:02.745530102Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.9.*
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 3.3.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.31.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 3712adf40b0484c939a708681fddc9b1d7e1d48044d53d8a16232ae237d59043
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+    - name: bismarck
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+    - email: scott@r6by.com
+      name: scottrigby
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/kube-prometheus-stack-36.6.1/kube-prometheus-stack-36.6.1.tgz
+    version: 36.6.1
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: 0.57.0
     created: "2022-07-01T12:24:44.532333703Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
@@ -318,6 +377,31 @@ entries:
     - https://github.com/prometheus-community/helm-charts/releases/download/kube-prometheus-stack-9.3.4/kube-prometheus-stack-9.3.4.tgz
     version: 9.3.4
   kube-state-metrics:
+  - apiVersion: v2
+    appVersion: 2.5.0
+    created: "2022-07-08T23:52:02.938557999Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 4b752598c69eb42aa90897cf2aff17841eaf57464a45427eff37e03f1cd7aa88
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/kube-state-metrics-4.13.0/kube-state-metrics-4.13.0.tgz
+    version: 4.13.0
   - apiVersion: v2
     appVersion: 2.5.0
     created: "2022-07-04T17:18:39.002386607Z"
@@ -788,6 +872,30 @@ entries:
     version: 4.3.1
   prometheus-cloudwatch-exporter:
   - apiVersion: v1
+    appVersion: 0.14.3
+    created: "2022-07-08T23:52:03.085693402Z"
+    description: A Helm chart for prometheus cloudwatch-exporter
+    digest: 7e9c96a414d56adff6e99d31de939407ec5e1d79cd098a0d73ab9ecb7936f0eb
+    home: https://github.com/prometheus/cloudwatch_exporter
+    keywords:
+    - aws
+    - cloudwatch
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    - email: asher@asherfoa.com
+      name: asherf
+    name: prometheus-cloudwatch-exporter
+    sources:
+    - https://github.com/prometheus/cloudwatch_exporter
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-cloudwatch-exporter-0.19.2/prometheus-cloudwatch-exporter-0.19.2.tgz
+    version: 0.19.2
+  - apiVersion: v1
     appVersion: 0.8.0
     created: "2020-09-10T17:16:13.023677768Z"
     description: A Helm chart for prometheus cloudwatch-exporter
@@ -1200,4 +1308,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-to-sd-0.3.1/prometheus-to-sd-0.3.1.tgz
     version: 0.3.1
-generated: "2022-07-06T14:22:22.360262324Z"
+generated: "2022-07-08T23:52:03.085791216Z"
