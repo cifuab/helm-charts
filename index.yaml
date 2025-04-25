@@ -88,6 +88,30 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v1.6.0
+    created: "2025-04-25T07:59:32.373743649Z"
+    description: The SNMP Notifier handles alerts coming from Prometheus Alertmanager
+      and relay them as SNMP traps.
+    digest: 118070cb6b22da8c9fa6468fda3e73a5c48e2bfefa40ab290776e5d90f598708
+    home: https://github.com/maxwo/snmp_notifier
+    keywords:
+    - monitoring
+    maintainers:
+    - email: maxime.wojtczak.pub@icloud.com
+      name: maxwo
+      url: https://github.com/maxwo
+    name: alertmanager-snmp-notifier
+    sources:
+    - https://github.com/maxwo/snmp_notifier
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/alertmanager-snmp-notifier-0.4.1/alertmanager-snmp-notifier-0.4.1.tgz
+    version: 0.4.1
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v1.6.0
     created: "2025-04-16T02:01:23.329186834Z"
     description: The SNMP Notifier handles alerts coming from Prometheus Alertmanager
       and relay them as SNMP traps.
@@ -3580,4 +3604,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-04-25T01:59:45.545292466Z"
+generated: "2025-04-25T07:59:32.373905931Z"
