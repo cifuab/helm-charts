@@ -1525,6 +1525,68 @@ entries:
         - name: Upstream Project
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
+    appVersion: v3.3.1
+    created: "2025-05-04T01:59:50.702883468Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 1.16.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.33.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.46.*
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 3.2.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: 2304eea94009de1f5d8d36f3c9f87b60a57b717a431e2c36029be3fe52bb79c8
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    - prometheus
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-27.12.0/prometheus-27.12.0.tgz
+    version: 27.12.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/prometheus
+    apiVersion: v2
     appVersion: v3.3.0
     created: "2025-04-19T13:59:49.601774181Z"
     dependencies:
@@ -3939,6 +4001,29 @@ entries:
   prometheus-redis-exporter:
   - apiVersion: v2
     appVersion: v1.69.0
+    created: "2025-05-04T01:59:50.877600341Z"
+    description: Prometheus exporter for Redis metrics
+    digest: 9142a40efbc70d10647046de566d26489ce74c60bf81ecc260b1c6276f1937be
+    home: https://github.com/oliver006/redis_exporter
+    keywords:
+    - prometheus
+    - redis
+    maintainers:
+    - email: arcadie.condrat@gmail.com
+      name: acondrat
+      url: https://github.com/acondrat
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    name: prometheus-redis-exporter
+    sources:
+    - https://github.com/oliver006/redis_exporter
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-redis-exporter-6.10.2/prometheus-redis-exporter-6.10.2.tgz
+    version: 6.10.2
+  - apiVersion: v2
+    appVersion: v1.69.0
     created: "2025-04-27T19:59:47.987388402Z"
     description: Prometheus exporter for Redis metrics
     digest: 5c556bcc37136d78c3713eec5be25b442dfcfe8c86769928e4775c8b55779e10
@@ -4381,4 +4466,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-05-03T19:59:30.161397574Z"
+generated: "2025-05-04T01:59:50.877896164Z"
