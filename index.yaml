@@ -8,6 +8,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.28.1
+    created: "2025-05-07T13:59:35.692511524Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: 72f48dc971fcf38890e3edb9af9f8096126dc3b68126ec75063b2047976fb907
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/alertmanager-1.17.1/alertmanager-1.17.1.tgz
+    version: 1.17.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.28.1
     created: "2025-05-06T01:59:28.823751571Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -3074,6 +3104,31 @@ entries:
   prometheus-json-exporter:
   - apiVersion: v2
     appVersion: v0.7.0
+    created: "2025-05-07T13:59:35.863090097Z"
+    description: Install prometheus-json-exporter
+    digest: 08503dc4e54e19cef7cd691c37ed3562241c814b629718775a4d22878644d794
+    home: https://github.com/prometheus-community/json_exporter
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: schmiddim@gmx.at
+      name: schmiddim
+      url: https://github.com/schmiddim
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: github@xiu.io
+      name: xiu
+      url: https://github.com/xiu
+    name: prometheus-json-exporter
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-json-exporter-0.16.1/prometheus-json-exporter-0.16.1.tgz
+    version: 0.16.1
+  - apiVersion: v2
+    appVersion: v0.7.0
     created: "2025-04-16T02:01:25.465407957Z"
     description: Install prometheus-json-exporter
     digest: 3c442241959257d82799f95ef36d4bb2565c47d03f887b25a77285e4a74a012c
@@ -4749,4 +4804,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-05-07T01:59:44.661119796Z"
+generated: "2025-05-07T13:59:35.863327683Z"
