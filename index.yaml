@@ -4487,6 +4487,28 @@ entries:
   prometheus-pingmesh-exporter:
   - apiVersion: v2
     appVersion: v1.2.2
+    created: "2025-05-12T07:59:29.607216942Z"
+    description: Prometheus Pingmesh Exporter
+    digest: 95601ed1f956624dc488da9f9e1ac93e861c5e907d739a8df9a1d112789d2ace
+    home: https://stack.kubeservice.cn/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - prometheus
+    - pingmesh
+    - monitoring
+    maintainers:
+    - email: dongjiang1989@126.com
+      name: dongjiang1989
+      url: https://github.com/dongjiang1989
+    name: prometheus-pingmesh-exporter
+    sources:
+    - https://github.com/kubeservice-stack/pingmesh-agent
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-pingmesh-exporter-0.4.2/prometheus-pingmesh-exporter-0.4.2.tgz
+    version: 0.4.2
+  - apiVersion: v2
+    appVersion: v1.2.2
     created: "2025-04-16T02:01:27.212906135Z"
     description: Prometheus Pingmesh Exporter
     digest: 3fa681210aa631c59fcc1f61ec794248b5f05c6014c576a0332db735eb2afb4c
@@ -5358,4 +5380,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-05-11T01:59:34.727017834Z"
+generated: "2025-05-12T07:59:29.607432274Z"
