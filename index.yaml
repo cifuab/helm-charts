@@ -2699,6 +2699,25 @@ entries:
   prom-label-proxy:
   - apiVersion: v2
     appVersion: v0.11.0
+    created: "2025-05-22T19:59:30.699518947Z"
+    description: A proxy that enforces a given label in a given PromQL query.
+    digest: 0e83e9d83e5adba8864a4f871f53ab022d1772fc1b60782443eaee0b211ac96e
+    home: https://github.com/prometheus-community/prom-label-proxy
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: github@jkroepke.de
+      name: Jan-Otto Kröpke
+      url: https://github.com/jkroepke
+    name: prom-label-proxy
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prom-label-proxy-0.12.1/prom-label-proxy-0.12.1.tgz
+    version: 0.12.1
+  - apiVersion: v2
+    appVersion: v0.11.0
     created: "2025-05-02T20:00:02.080646394Z"
     description: A proxy that enforces a given label in a given PromQL query.
     digest: a424b6f1a54df2441bbfed658101d5dba74ae2f8e5b35893071bc7c61d8635cc
@@ -4655,6 +4674,29 @@ entries:
   prometheus-nats-exporter:
   - apiVersion: v1
     appVersion: 0.16.0
+    created: "2025-05-22T19:59:30.794257673Z"
+    description: A Helm chart for prometheus-nats-exporter
+    digest: 981a1857421bd39d1db403ba98d1bf7480e4a9020874275506cd081274cd2237
+    home: https://github.com/nats-io/prometheus-nats-exporter
+    keywords:
+    - nats
+    - prometheus
+    - exporter
+    maintainers:
+    - email: okgolove@markeloff.net
+      name: okgolove
+      url: https://github.com/okgolove
+    - email: carlos@carlosbecker.com
+      name: caarlos0
+      url: https://github.com/caarlos0
+    name: prometheus-nats-exporter
+    sources:
+    - https://github.com/nats-io/prometheus-nats-exporter
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-nats-exporter-2.18.1/prometheus-nats-exporter-2.18.1.tgz
+    version: 2.18.1
+  - apiVersion: v1
+    appVersion: 0.16.0
     created: "2025-04-16T02:01:26.156939774Z"
     description: A Helm chart for prometheus-nats-exporter
     digest: 50b82f66db53bc72513ff51d7fcee9e6d8f656775efd2d74843b3fb879272044
@@ -6231,6 +6273,28 @@ entries:
   prometheus-windows-exporter:
   - apiVersion: v2
     appVersion: 0.30.6
+    created: "2025-05-22T19:59:30.907788066Z"
+    description: A Helm chart for prometheus windows-exporter
+    digest: 6a70f2f1639056732f0c096208689626cbf0829c6562f380e0bf97797f88aaa7
+    home: https://github.com/prometheus-community/windows_exporter/
+    keywords:
+    - windows-exporter
+    - windows
+    - prometheus
+    - exporter
+    maintainers:
+    - email: github@jkroepke.de
+      name: Jan-Otto Kröpke
+      url: https://github.com/jkroepke
+    name: prometheus-windows-exporter
+    sources:
+    - https://github.com/prometheus-community/windows_exporter/
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-windows-exporter-0.10.1/prometheus-windows-exporter-0.10.1.tgz
+    version: 0.10.1
+  - apiVersion: v2
+    appVersion: 0.30.6
     created: "2025-04-17T13:59:49.99041183Z"
     description: A Helm chart for prometheus windows-exporter
     digest: 011f199ee49160ce4c7b7c31d8c383922ead384f6fb10f1246a9c6d7ba434616
@@ -6328,4 +6392,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-05-22T13:59:51.209519048Z"
+generated: "2025-05-22T19:59:30.908039918Z"
