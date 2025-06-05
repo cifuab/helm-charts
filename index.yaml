@@ -3246,6 +3246,39 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 2.15.0
+    created: "2025-06-05T13:59:34.439978433Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 0c490d980067becc58d1780909c4d83e3b2a777bbc935421ecc9196bce959e99
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+      url: https://github.com/tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+      url: https://github.com/mrueg
+    - email: david@0xdc.me
+      name: dotdc
+      url: https://github.com/dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/kube-state-metrics-5.36.0/kube-state-metrics-5.36.0.tgz
+    version: 5.36.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 2.15.0
     created: "2025-06-02T13:59:55.413572073Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: ceccd8243238ce5a802b113f97a38b7a838ea2939dcee15ae11c5375a8280d58
@@ -3521,6 +3554,25 @@ entries:
     - https://github.com/cifuab/helm-charts/releases/download/kube-state-metrics-4.11.0/kube-state-metrics-4.11.0.tgz
     version: 4.11.0
   prom-label-proxy:
+  - apiVersion: v2
+    appVersion: v0.11.1
+    created: "2025-06-05T13:59:34.663068485Z"
+    description: A proxy that enforces a given label in a given PromQL query.
+    digest: 7dd74f7f9e422fdb9d411dab872e12b69327c238296268172be3c52a9dbd37bc
+    home: https://github.com/prometheus-community/prom-label-proxy
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: github@jkroepke.de
+      name: Jan-Otto Kröpke
+      url: https://github.com/jkroepke
+    name: prom-label-proxy
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prom-label-proxy-0.13.1/prom-label-proxy-0.13.1.tgz
+    version: 0.13.1
   - apiVersion: v2
     appVersion: v0.11.1
     created: "2025-06-04T13:59:29.219965244Z"
@@ -8046,4 +8098,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-06-05T01:59:31.251852193Z"
+generated: "2025-06-05T13:59:34.663626591Z"
