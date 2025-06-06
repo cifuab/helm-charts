@@ -5735,6 +5735,34 @@ entries:
   prometheus-elasticsearch-exporter:
   - apiVersion: v2
     appVersion: v1.9.0
+    created: "2025-06-06T19:59:35.618217879Z"
+    description: Elasticsearch stats exporter for Prometheus
+    digest: 7757a4318ecdda91b8dd403a950b3d3fab587d2cbdb60a14ef1ef9ca1a6b92d4
+    home: https://github.com/prometheus-community/elasticsearch_exporter
+    keywords:
+    - metrics
+    - elasticsearch
+    - monitoring
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: sven.mueller@commercetools.com
+      name: svenmueller
+      url: https://github.com/svenmueller
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+      url: https://github.com/desaintmartin
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-elasticsearch-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-elasticsearch-exporter
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-elasticsearch-exporter-6.7.3/prometheus-elasticsearch-exporter-6.7.3.tgz
+    version: 6.7.3
+  - apiVersion: v2
+    appVersion: v1.9.0
     created: "2025-04-16T02:01:25.044014251Z"
     description: Elasticsearch stats exporter for Prometheus
     digest: 0d333c9f884f86eacce7c5d82625c7fb0829a4b6e0a8ef120efb0949d5f76a3d
@@ -7283,6 +7311,37 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v1.11.1
+    created: "2025-06-06T19:59:35.752775575Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: c3e5e33d5d24d27b7d8814fa1723cfb5e0ade4ca5aef4ecc97c2b6fff1045530
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+      url: https://github.com/cstaud
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-pushgateway-3.4.0/prometheus-pushgateway-3.4.0.tgz
+    version: 3.4.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v1.11.1
     created: "2025-05-24T01:59:30.341783535Z"
     description: A Helm chart for prometheus pushgateway
     digest: d9f38f29c6e32e5787fab0b2645b204b6466c733a9949d33e20c6d084eee51b6
@@ -8177,4 +8236,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-06-06T01:59:50.005887399Z"
+generated: "2025-06-06T19:59:35.753257713Z"
