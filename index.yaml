@@ -9316,6 +9316,25 @@ entries:
   prometheus-smartctl-exporter:
   - apiVersion: v2
     appVersion: v0.14.0
+    created: "2025-06-21T01:59:28.282243376Z"
+    description: A Helm chart for Kubernetes
+    digest: 36d43f1759c62f9c38495e670b55256bb1f367eae3e1f4e74dccbcd42e808b0a
+    home: https://github.com/prometheus-community/smartctl_exporter
+    maintainers:
+    - name: kfox1111
+      url: https://github.com/kfox1111
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-smartctl-exporter
+    sources:
+    - https://github.com/prometheus-community/smartctl_exporter
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-smartctl-exporter-0.15.3/prometheus-smartctl-exporter-0.15.3.tgz
+    version: 0.15.3
+  - apiVersion: v2
+    appVersion: v0.14.0
     created: "2025-06-20T01:59:48.979126634Z"
     description: A Helm chart for Kubernetes
     digest: ed234f7666a7229c4cc81c056fb070e96ad798dc7c7ade3547030a606455cb92
@@ -9789,4 +9808,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-06-20T19:59:47.481781389Z"
+generated: "2025-06-21T01:59:28.28259994Z"
