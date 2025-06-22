@@ -394,6 +394,29 @@ entries:
   jiralert:
   - apiVersion: v2
     appVersion: v1.3.0
+    created: "2025-06-22T01:59:28.379225672Z"
+    description: A Helm chart for Kubernetes to install jiralert
+    digest: df9ce7bf2eb16a3f1e0d9d28e416d39f3f4a56fda2a5038c579e5018bd73bd03
+    home: https://github.com/prometheus-community/jiralert
+    keywords:
+    - monitoring
+    - prometheus
+    - alerting
+    - jiralert
+    maintainers:
+    - email: github@jkroepke.de
+      name: Jan-Otto Kröpke
+      url: https://github.com/jkroepke
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    name: jiralert
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/jiralert-1.8.0/jiralert-1.8.0.tgz
+    version: 1.8.0
+  - apiVersion: v2
+    appVersion: v1.3.0
     created: "2025-04-16T02:01:23.47152304Z"
     description: A Helm chart for Kubernetes to install jiralert
     digest: b9918eed21c94031b8d019916b87e45b853779b3954f4c8d27045d3f0d7dbe7a
@@ -9853,4 +9876,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-06-21T13:59:30.542225657Z"
+generated: "2025-06-22T01:59:28.379574302Z"
