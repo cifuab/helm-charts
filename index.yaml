@@ -8310,6 +8310,46 @@ entries:
           email: nicolas.lamirault@gmail.com
     apiVersion: v2
     appVersion: 1.4.2
+    created: "2025-06-29T19:59:47.666543537Z"
+    dependencies:
+    - condition: nginx.enabled
+      name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 21.0.1
+    description: A Helm chart for NGINX Prometheus Exporter
+    digest: 2e1bc9464091b3bbc5d732c33440fb378ff3dd623a7855a3bba954db89cbef6f
+    home: https://github.com/nginxinc/nginx-prometheus-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - nginx
+    - monitoring
+    maintainers:
+    - email: nicolas.lamirault@gmail.com
+      name: nlamirault
+      url: https://github.com/nlamirault
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-nginx-exporter
+    sources:
+    - https://github.com/nginxinc/nginx-prometheus-exporter
+    - https://github.com/prometheus-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-nginx-exporter-1.7.0/prometheus-nginx-exporter-1.7.0.tgz
+    version: 1.7.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: NGINX Prometheus Exporter
+          url: https://github.com/nginxinc/nginx-prometheus-exporter
+      artifacthub.io/maintainers: |
+        - name: nlamirault
+          email: nicolas.lamirault@gmail.com
+    apiVersion: v2
+    appVersion: 1.4.2
     created: "2025-06-17T07:59:59.182283871Z"
     dependencies:
     - condition: nginx.enabled
@@ -8938,6 +8978,37 @@ entries:
           url: https://github.com/prometheus-operator/prometheus-operator
     apiVersion: v2
     appVersion: 0.83.0
+    created: "2025-06-29T19:59:47.873626386Z"
+    description: Prometheus Operator Admission Webhook
+    digest: f00d7056d4f8ccc25b0b71e283134e8458567ad43929bf4014888d0091ee63a9
+    home: https://github.com/prometheus-operator/prometheus-operator
+    icon: https://github.com/prometheus-operator/prometheus-operator/raw/main/Documentation/logos/prometheus-operator-logo.png
+    keywords:
+    - admission
+    - monitoring
+    - prometheus-operator
+    - webhook
+    maintainers:
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-operator-admission-webhook
+    sources:
+    - https://github.com/prometheus-operator/prometheus-operator
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-operator-admission-webhook
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-operator-admission-webhook-0.27.0/prometheus-operator-admission-webhook-0.27.0.tgz
+    version: 0.27.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/prometheus-operator
+    apiVersion: v2
+    appVersion: 0.83.0
     created: "2025-06-11T19:59:28.456554489Z"
     description: Prometheus Operator Admission Webhook
     digest: 4067893b5ecd5d5016887ad70d604856915362123c5b976624866f84f103e9d3
@@ -9301,6 +9372,35 @@ entries:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-operator-crds-19.1.0/prometheus-operator-crds-19.1.0.tgz
     version: 19.1.0
   prometheus-pgbouncer-exporter:
+  - apiVersion: v2
+    appVersion: v0.11.0
+    created: "2025-06-29T19:59:48.112175647Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~16.7.0
+    description: A Helm chart for prometheus pgbouncer-exporter
+    digest: d36f245cd0278900d4df289b3c20daa096ecfada5382b6c961597dee8cad7dd2
+    home: https://github.com/prometheus-community/pgbouncer_exporter
+    keywords:
+    - pgbouncer
+    - prometheus
+    - exporter
+    maintainers:
+    - email: stewart.shea@gmail.com
+      name: stewartshea
+      url: https://github.com/stewartshea
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-pgbouncer-exporter
+    sources:
+    - https://github.com/prometheus-community/pgbouncer_exporter
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-pgbouncer-exporter-0.8.0/prometheus-pgbouncer-exporter-0.8.0.tgz
+    version: 0.8.0
   - apiVersion: v2
     appVersion: v0.10.2
     created: "2025-06-29T13:59:41.491541652Z"
@@ -10689,4 +10789,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-06-29T13:59:41.670829687Z"
+generated: "2025-06-29T19:59:48.112505551Z"
