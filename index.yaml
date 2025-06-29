@@ -7557,6 +7557,38 @@ entries:
         - name: Upstream Project
           url: https://github.com/prometheus/consul_exporter
     apiVersion: v2
+    appVersion: v0.13.0
+    created: "2025-06-29T13:59:41.301261837Z"
+    description: A Helm chart for the Prometheus Consul Exporter
+    digest: e4b7b6ee7f2d26c34bf1e9164e13e6f4c77dbf593a3e8e916ad47e5a778edd7f
+    home: https://github.com/prometheus/consul_exporter
+    keywords:
+    - metrics
+    - consul
+    - monitoring
+    maintainers:
+    - email: 8890118+timm088@users.noreply.github.com
+      name: timm088
+      url: https://github.com/timm088
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+      url: https://github.com/gkarthiks
+    name: prometheus-consul-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-consul-exporter
+    - https://github.com/prometheus/consul_exporter
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-consul-exporter-1.1.0/prometheus-consul-exporter-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/consul_exporter
+    apiVersion: v2
     appVersion: 0.4.0
     created: "2025-04-16T02:01:24.672170745Z"
     description: A Helm chart for the Prometheus Consul Exporter
@@ -9271,6 +9303,35 @@ entries:
   prometheus-pgbouncer-exporter:
   - apiVersion: v2
     appVersion: v0.10.2
+    created: "2025-06-29T13:59:41.491541652Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~16.7.0
+    description: A Helm chart for prometheus pgbouncer-exporter
+    digest: 7c4353aa27f756311695f4f25b42bde4e0f064c08a3b959ba99d9754545fb027
+    home: https://github.com/prometheus-community/pgbouncer_exporter
+    keywords:
+    - pgbouncer
+    - prometheus
+    - exporter
+    maintainers:
+    - email: stewart.shea@gmail.com
+      name: stewartshea
+      url: https://github.com/stewartshea
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-pgbouncer-exporter
+    sources:
+    - https://github.com/prometheus-community/pgbouncer_exporter
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-pgbouncer-exporter-0.7.2/prometheus-pgbouncer-exporter-0.7.2.tgz
+    version: 0.7.2
+  - apiVersion: v2
+    appVersion: v0.10.2
     created: "2025-05-11T01:59:34.726783838Z"
     dependencies:
     - condition: postgresql.enabled
@@ -10628,4 +10689,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-06-29T07:59:51.896604109Z"
+generated: "2025-06-29T13:59:41.670829687Z"
