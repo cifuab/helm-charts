@@ -8,6 +8,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.28.1
+    created: "2025-07-08T13:59:31.969884713Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: 9e1ddfbb77a5b726231e718163d9106dc141f279ae360e97094f12fa9af460d9
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/alertmanager-1.22.0/alertmanager-1.22.0.tgz
+    version: 1.22.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.28.1
     created: "2025-06-01T19:59:28.072886501Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -9965,6 +9995,33 @@ entries:
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: v0.17.1
+    created: "2025-07-08T13:59:32.096088914Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 0915f334b331160dd6170ad2388d3607928dcf29770988fbafc973958edc2afe
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-postgres-exporter-7.0.0/prometheus-postgres-exporter-7.0.0.tgz
+    version: 7.0.0
+  - apiVersion: v2
+    appVersion: v0.17.1
     created: "2025-04-21T19:59:39.873100766Z"
     description: A Helm chart for prometheus postgres-exporter
     digest: 2ba78f8f25bb032e24038d2ea0b9707bf047ab8ae0f02f2b9e6580f1d672207e
@@ -11227,4 +11284,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-07-06T01:59:44.768940707Z"
+generated: "2025-07-08T13:59:32.096514252Z"
