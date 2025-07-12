@@ -8820,6 +8820,29 @@ entries:
   prometheus-nats-exporter:
   - apiVersion: v1
     appVersion: 0.17.3
+    created: "2025-07-12T19:59:27.113324015Z"
+    description: A Helm chart for prometheus-nats-exporter
+    digest: 1026f1e90bf25c7ea28ab1930a0decf8acb219484f11cf10bec74fa1adf675f5
+    home: https://github.com/nats-io/prometheus-nats-exporter
+    keywords:
+    - nats
+    - prometheus
+    - exporter
+    maintainers:
+    - email: okgolove@markeloff.net
+      name: okgolove
+      url: https://github.com/okgolove
+    - email: carlos@carlosbecker.com
+      name: caarlos0
+      url: https://github.com/caarlos0
+    name: prometheus-nats-exporter
+    sources:
+    - https://github.com/nats-io/prometheus-nats-exporter
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-nats-exporter-2.20.0/prometheus-nats-exporter-2.20.0.tgz
+    version: 2.20.0
+  - apiVersion: v1
+    appVersion: 0.17.3
     created: "2025-06-02T19:59:39.159938266Z"
     description: A Helm chart for prometheus-nats-exporter
     digest: a108b045fe314f8b51cbb1897b24941d1f3390db647616fc4718fee2a274ef67
@@ -11580,4 +11603,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-07-12T07:59:53.885390096Z"
+generated: "2025-07-12T19:59:27.113806696Z"
