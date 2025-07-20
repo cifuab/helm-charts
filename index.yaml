@@ -9906,6 +9906,46 @@ entries:
           email: nicolas.lamirault@gmail.com
     apiVersion: v2
     appVersion: 1.4.2
+    created: "2025-07-20T07:59:40.960319592Z"
+    dependencies:
+    - condition: nginx.enabled
+      name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 21.0.8
+    description: A Helm chart for NGINX Prometheus Exporter
+    digest: a3af267a2f915728d31e4c5a8b3137c095b28a224994061c77452cb46667a3b7
+    home: https://github.com/nginxinc/nginx-prometheus-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - nginx
+    - monitoring
+    maintainers:
+    - email: nicolas.lamirault@gmail.com
+      name: nlamirault
+      url: https://github.com/nlamirault
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-nginx-exporter
+    sources:
+    - https://github.com/nginxinc/nginx-prometheus-exporter
+    - https://github.com/prometheus-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-nginx-exporter-1.10.2/prometheus-nginx-exporter-1.10.2.tgz
+    version: 1.10.2
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: NGINX Prometheus Exporter
+          url: https://github.com/nginxinc/nginx-prometheus-exporter
+      artifacthub.io/maintainers: |
+        - name: nlamirault
+          email: nicolas.lamirault@gmail.com
+    apiVersion: v2
+    appVersion: 1.4.2
     created: "2025-07-19T22:20:16.356692869Z"
     dependencies:
     - condition: nginx.enabled
@@ -13165,4 +13205,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-07-20T02:36:25.097328697Z"
+generated: "2025-07-20T07:59:40.96126357Z"
