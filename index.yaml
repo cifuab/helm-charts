@@ -20724,6 +20724,23 @@ entries:
   prometheus-systemd-exporter:
   - apiVersion: v2
     appVersion: 0.7.0
+    created: "2025-10-18T19:59:29.973264878Z"
+    description: A Helm chart for prometheus systemd-exporter
+    digest: 1c9e5b5703861af793044dfe48b19783d6126f78f5468bb83e2cd2591257e618
+    home: https://github.com/prometheus-community/systemd_exporter
+    maintainers:
+    - email: 19607336+maxime1907@users.noreply.github.com
+      name: maxime1907
+      url: https://github.com/maxime1907
+    name: prometheus-systemd-exporter
+    sources:
+    - https://github.com/prometheus-community/systemd_exporter
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-systemd-exporter-0.5.2/prometheus-systemd-exporter-0.5.2.tgz
+    version: 0.5.2
+  - apiVersion: v2
+    appVersion: 0.7.0
     created: "2025-07-19T22:20:18.403725945Z"
     description: A Helm chart for prometheus systemd-exporter
     digest: eb98857439670a68923cf2a342e41c3e9d64e0414bf1d0dcfb741c00e3f43632
@@ -21155,4 +21172,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-10-18T13:59:53.272383641Z"
+generated: "2025-10-18T19:59:29.974709728Z"
