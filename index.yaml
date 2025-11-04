@@ -7,6 +7,36 @@ entries:
         - name: Chart Source
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
+    appVersion: v0.29.0
+    created: "2025-11-04T13:59:38.353319407Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: 4038983d3d6f18885ac51a4d078d765d433951c1481b06821d7846a299ef718d
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/alertmanager-1.28.0/alertmanager-1.28.0.tgz
+    version: 1.28.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
     appVersion: v0.28.1
     created: "2025-10-13T19:59:43.626279667Z"
     description: The Alertmanager handles alerts sent by client applications such
@@ -15798,6 +15828,25 @@ entries:
   prometheus-ipmi-exporter:
   - apiVersion: v2
     appVersion: v1.10.1
+    created: "2025-11-04T13:59:38.533749552Z"
+    description: This is an IPMI exporter for Prometheus.
+    digest: 5747dcef9da2b6295621a2bd617d6d3ac5b1474fc4b4d922fdf7ab6a40642da3
+    home: https://github.com/prometheus-community/ipmi_exporter
+    keywords:
+    - metrics
+    - ipmi
+    - monitoring
+    maintainers:
+    - email: f@lex.la
+      name: lexfrei
+      url: https://github.com/lexfrei
+    name: prometheus-ipmi-exporter
+    type: application
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-ipmi-exporter-0.8.0/prometheus-ipmi-exporter-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    appVersion: v1.10.1
     created: "2025-10-26T13:59:39.048154502Z"
     description: This is an IPMI exporter for Prometheus.
     digest: 25afb8d1d24182da0ac9751b75640102bb776849e7807bf07d7d04210d9a3f8a
@@ -22296,4 +22345,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2025-11-03T07:59:31.658772754Z"
+generated: "2025-11-04T13:59:38.534609548Z"
