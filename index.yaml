@@ -19191,6 +19191,24 @@ entries:
     version: 6.7.2
   prometheus-fastly-exporter:
   - apiVersion: v2
+    appVersion: v10.2.0
+    created: "2026-01-05T13:59:39.988327895Z"
+    description: A Helm chart for the Prometheus Fastly Exporter
+    digest: d74eeb2957a36dfdb08e4f43b84afb9b96f415daa264fda2ce7150e779de9b7e
+    home: https://github.com/fastly/fastly-exporter
+    keywords:
+    - metrics
+    - fastly
+    - monitoring
+    maintainers:
+    - email: arslanbekov@gmail.com
+      name: arslanbekov
+      url: https://github.com/arslanbekov
+    name: prometheus-fastly-exporter
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-fastly-exporter-0.10.0/prometheus-fastly-exporter-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
     appVersion: v9.5.0
     created: "2025-07-19T22:20:15.375978225Z"
     description: A Helm chart for the Prometheus Fastly Exporter
@@ -25673,6 +25691,29 @@ entries:
     version: 0.13.0
   prometheus-snmp-exporter:
   - apiVersion: v1
+    appVersion: v0.30.0
+    created: "2026-01-05T13:59:40.170827362Z"
+    description: Prometheus SNMP Exporter
+    digest: 2a7374203ba960debafc7ea9d6e3bd7444e85639c1389c3c33f58bbaddf5012c
+    home: https://github.com/prometheus/snmp_exporter
+    keywords:
+    - prometheus
+    - snmp
+    - monitoring
+    maintainers:
+    - email: github@xiu.io
+      name: xiu
+      url: https://github.com/xiu
+    - email: walker.thomas.p@gmail.com
+      name: walker-tom
+      url: https://github.com/walker-tom
+    name: prometheus-snmp-exporter
+    sources:
+    - https://github.com/prometheus/snmp_exporter
+    urls:
+    - https://github.com/cifuab/helm-charts/releases/download/prometheus-snmp-exporter-9.10.0/prometheus-snmp-exporter-9.10.0.tgz
+    version: 9.10.0
+  - apiVersion: v1
     appVersion: v0.29.0
     created: "2025-12-10T20:00:04.8505007Z"
     description: Prometheus SNMP Exporter
@@ -26791,4 +26832,4 @@ entries:
     urls:
     - https://github.com/cifuab/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.0/prometheus-yet-another-cloudwatch-exporter-0.40.0.tgz
     version: 0.40.0
-generated: "2026-01-02T19:59:58.413645165Z"
+generated: "2026-01-05T13:59:40.173727007Z"
